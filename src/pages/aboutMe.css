@@ -1,0 +1,22 @@
+.hero-iamge{
+    width: 209px;
+    align-self: center; 
+}
+
+.h2{
+    color: #201300;
+    font-family: Abril Fatface;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text{
+    color: #000;
+    font-family: Andale Mono;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

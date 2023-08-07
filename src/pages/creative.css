@@ -1,0 +1,19 @@
+.creative-text{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 17px 10px 17px;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+  
+    color: #000;
+    font-family: Andale Mono;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.creative-text img{
+    align-items: flex-start;
+}

@@ -1,0 +1,27 @@
+.singlePage {
+    display: flex;
+    width: 620px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.doublePage {
+    display: flex;
+    width: 1440px;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-top: 38px; 
+    gap: 56px;
+    flex-wrap: wrap;
+}
+
+.littleHr{
+    width: 100px;
+    height: 0px;
+    padding-left: 17px;
+    margin: 0;
+    align-self: flex-start;
+  }
