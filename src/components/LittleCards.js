@@ -12,15 +12,26 @@ function LittleCardRow(props) {
 function LittleCard(props) {
   const navigate = useNavigate();
 
-  console.log(props.title,props.link)
-  let c = props.link?'littleCard clickable':"littleCard"
-  console.log("C",props.link,c)
-  return (
-    <div className={c} onClick={()=>navigate(props.link)}>
+  if(props.link){
+    return (
+      <div className="littleCard clickable" onClick={()=>navigate(props.link)}>
+  
+        <div className="main-title-egg-container"> 
+          <img alt="" className='egg' height="20px" src="/ico.png"/>
+          <div className='lct'>{props.title}</div>
+        </div>
+        <div className='lcb'>{props.body}</div>
+      </div>
+    )
+  } else {
+    return (
+      <div className='littleCard' onClick={()=>navigate(props.link)}>
+
       <div className='lct'>{props.title}</div>
       <div className='lcb'>{props.body}</div>
-    </div>
-  )
+      </div>
+    )
+  }
 }
 
 

@@ -13,10 +13,14 @@ function Card(props) {
 
   return (
     <div className={c}  onClick={()=>{if(props.link){navigate(props.link)}}}>
+        
         {/* <hr className='littleHr'></hr> */}
         <div className='card-title'>
             <div className='main-title'>
-                <div className='h3'>{props.title}</div>
+                <div className="main-title-egg-container"> 
+                  <img className='egg' height="30px" src="/ico.png"/>
+                  <div className='h3'>{props.title}</div>
+                </div>
                 <div className='h6'>{props.subtitle}</div>
             </div>
             <div className='date'>
