@@ -78,6 +78,11 @@
   align-self: stretch;
 }
 
+.clickable:hover {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
 .card .card-title .main-title {
   display: flex;
   padding: 3px 17px;

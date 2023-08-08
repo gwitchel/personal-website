@@ -8,7 +8,7 @@ function DinosaurTrain() {
                 <h1> Show Me Your Dinosaur Train </h1>
         </div>
         <div class="creative-text">
-        <img width="90%" alt="dino-train" src={'./dino-train.png'}/>
+        <img width="90%" alt="dino-train" src={'./dinotrain.png'}/>
         <br/> <br/> 
           I wrote an algorithm that maps cartoon dinosaurs faces to human faces. It uses facial recognition software 
           for the humans and a prepopulated database for the dinosaurs. Each human is mapped to a unique dinosaur, 

@@ -20,26 +20,28 @@ function Climbing() {
       <DynamicPage> 
           <Card link="TCA" title="The Climbing Academy" 
                 subtitle="I attended a boarding school for elite rock climbers" 
-                body="this is where I learned about mathmetically modeling data" />
+                body="I spent a year attending the Climbing academy! The Climbing Academy is an accredited private [more] " />
           {/* <Card link="USAIce" title="USA Ice Climbing" 
                 subtitle="Team captain" 
                 body="this is where I learned about mathmetically modeling data" /> */}
           <hr className='littleHr'></hr>
           <Card link="Films" title="'the Mixtress' & 'the Mentor'" 
                 subtitle="My journey with filmmaking" 
-                body="this is where I learned about mathmetically modeling data" />
+                body="Want to watch some videos about my ice climbing career? I've been featured in three [more] " />
           <hr className='littleHr'></hr>
           <Card link="WorldCup" title="The UIAA World Cup Circuit" 
                 subtitle="Putting the US on an international stage" 
-                body="this is where I learned about mathmetically modeling data" />
+                body="I spent five years doing the world cup circuit, taking first in three American [more] " />
           <hr className='littleHr'></hr>
           <Card link="JuniorOlympics" title="2016 Junior Olympics" 
                 subtitle="Putting the US on the olympic radar" 
-                body="this is where I learned about mathmetically modeling data" />
+                body="In 2016 I got to spend a few weeks at the Junior Olympics in Lillihammer. I represented the US and Demoed Ice climbing [more] " />
           <hr className='littleHr'></hr>
           <Card link="skiing" title="Backountry skiing" 
               subtitle="It's not ice climbing but it sure is fun!" 
-              body="this is where I learned about mathmetically modeling data" />
+              body="Click to learn about my back country experiences
+
+              I've been snowbaording and skiing since before I could walk [more]" />
         
 
       </DynamicPage>

@@ -10,18 +10,13 @@ function LittleCardRow(props) {
 }
 
 function LittleCard(props) {
-  return (
-    <div className='littleCard'>
-      <div className='lct'>{props.title}</div>
-      <div className='lcb'>{props.body}</div>
-    </div>
-  )
-}
-function LittleCardButton(props) {
   const navigate = useNavigate();
-  
+
+  console.log(props.title,props.link)
+  let c = props.link?'littleCard clickable':"littleCard"
+  console.log("C",props.link,c)
   return (
-    <div className='littleCard bttn' onClick={()=>navigate(props.link)}>
+    <div className={c} onClick={()=>navigate(props.link)}>
       <div className='lct'>{props.title}</div>
       <div className='lcb'>{props.body}</div>
     </div>
@@ -29,4 +24,5 @@ function LittleCardButton(props) {
 }
 
 
-export { LittleCardRow,LittleCard,LittleCardButton}
+
+export { LittleCardRow,LittleCard}

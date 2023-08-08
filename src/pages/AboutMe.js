@@ -1,6 +1,6 @@
 import React from 'react'
-import {Page,DynamicPage} from '../components/Page'
-import { LittleCardRow,LittleCard,LittleCardButton } from '../components/LittleCards'
+import {DynamicPage} from '../components/Page'
+import { LittleCardRow,LittleCard} from '../components/LittleCards'
 import { useNavigate } from 'react-router-dom';
 import './aboutMe.css'
 import '../App.css'
@@ -33,10 +33,10 @@ function AboutMe() {
     </div>
     <div className='doublePage' >
             <LittleCardRow>
-                <LittleCardButton key='1' link="/resume" onClick={(e)=>navigate("/resume")} title="Resume" body="work experience and education" />
-                <LittleCardButton key='2' link="/portfolio/MochaZine" onClick={(e)=>navigate("/portfolio")} title="Portfolio" body="Check out my tech portfolio" />
-                <LittleCardButton key='3' link="/Alpinism/Films" onClick={(e)=>navigate("/Alpinism")} title="Alpinism" body="learn more about my climbing career" />
-                <LittleCardButton key='4' link="/creative" onClick={(e)=>navigate("/creative")} title="Watercolor" body="View some of my favorite creative projects" />
+                <LittleCard key='1' link="/resume" onClick={(e)=>navigate("/resume")} title="Resume" body="work experience and education" />
+                <LittleCard key='2' link="/portfolio/MochaZine" onClick={(e)=>navigate("/portfolio")} title="Portfolio" body="Check out my tech portfolio" />
+                <LittleCard key='3' link="/Alpinism/Films" onClick={(e)=>navigate("/Alpinism")} title="Alpinism" body="learn more about my climbing career" />
+                <LittleCard key='4' link="/creative" onClick={(e)=>navigate("/creative")} title="Watercolor" body="View some of my favorite creative projects" />
             </LittleCardRow>
     </div>
     </>

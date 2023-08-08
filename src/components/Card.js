@@ -5,8 +5,14 @@ import { useNavigate } from 'react-router-dom';
 
 function Card(props) {
   const navigate = useNavigate();
+
+  let c = 'card'
+  if(props.link){
+     console.log("LINK",props.link)
+     c= 'card clickable'}
+
   return (
-    <div className='card' onClick={()=>{if(props.link){navigate(props.link)}}}>
+    <div className={c}  onClick={()=>{if(props.link){navigate(props.link)}}}>
         {/* <hr className='littleHr'></hr> */}
         <div className='card-title'>
             <div className='main-title'>

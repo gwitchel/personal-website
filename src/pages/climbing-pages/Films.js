@@ -11,7 +11,7 @@ function Films() {
         <div className='creative-text'>
           <img width="70%" alt="marcus" src={'./mentor.jpg'}/>
           <br/><br/>
-            Want to watch some videos about my ice climbing career? I've been features in three professional films, linked below.
+            Want to watch some videos about my ice climbing career? I've been featured in three professional films, linked below.
           <br/><br/>
           <a href="https://www.amazon.com/Mentor-Marcus-Garcia/dp/B085Q8ZNQ6" target="_blank" rel="noreferrer"> Watch "the Mentor" on amazon prime </a>
           <br/><br/>
