@@ -36,10 +36,10 @@ function AboutMe() {
     </div>
     <div className='doublePage' >
             <LittleCardRow>
-                <LittleCard key='1' link="/resume" onClick={(e)=>navigate("/resume")} title="Resume" body="work experience and education" />
-                <LittleCard key='2' link="/portfolio/MochaZine" onClick={(e)=>navigate("/portfolio")} title="Portfolio" body="Check out my tech portfolio" />
+                <LittleCard key='1' link="/resume" onClick={(e)=>navigate("/resume")} title="Resume" body="Review my work experience and education" />
+                <LittleCard key='2' link="/portfolio/MochaZine" onClick={(e)=>navigate("/portfolio")} title="Portfolio" body="Check out my portfolio of past projects" />
                 <LittleCard key='3' link="/Alpinism/Films" onClick={(e)=>navigate("/Alpinism")} title="Alpinism" body="learn more about my climbing career" />
-                <LittleCard key='4' link="/creative" onClick={(e)=>navigate("/creative")} title="Watercolor" body="View some of my favorite creative projects" />
+                <LittleCard key='4' link="/creative" onClick={(e)=>navigate("/creative")} title="Watercolor" body="When I'm not coding, I'm painting!" />
             </LittleCardRow>
     </div>
     </>
