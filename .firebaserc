@@ -3,6 +3,10 @@
     "staging": "personal-web-88faf",
     "stage": "personal-web-88faf"
   },
+  "rewrites": [{
+    "source": "**",
+    "destination": "/index.html"
+  }],
   "targets": {},
   "etags": {}
 }
