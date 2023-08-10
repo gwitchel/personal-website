@@ -20,28 +20,28 @@ function Climbing() {
       <DynamicPage> 
           <Card link="TCA" title="The Climbing Academy" 
                 subtitle="I attended a boarding school for elite rock climbers" 
-                body="I spent a year attending the Climbing academy! The Climbing Academy is an accredited private [more] " />
+                body="I spent a year attending the Climbing academy! The Climbing Academy is an accredited private ... " />
           {/* <Card link="USAIce" title="USA Ice Climbing" 
                 subtitle="Team captain" 
                 body="this is where I learned about mathmetically modeling data" /> */}
           <hr className='littleHr'></hr>
           <Card link="Films" title="'the Mixtress' & 'the Mentor'" 
                 subtitle="My journey with filmmaking" 
-                body="Want to watch some videos about my ice climbing career? I've been featured in three [more] " />
+                body="Want to watch some videos about my ice climbing career? I've been featured in three ... " />
           <hr className='littleHr'></hr>
           <Card link="WorldCup" title="The UIAA World Cup Circuit" 
                 subtitle="Putting the US on an international stage" 
-                body="I spent five years doing the world cup circuit, taking first in three American [more] " />
+                body="I spent five years doing the world cup circuit, taking first in three American ... " />
           <hr className='littleHr'></hr>
           <Card link="JuniorOlympics" title="2016 Junior Olympics" 
                 subtitle="Putting the US on the olympic radar" 
-                body="In 2016 I got to spend a few weeks at the Junior Olympics in Lillihammer. I represented the US and Demoed Ice climbing [more] " />
+                body="In 2016 I got to spend a few weeks at the Junior Olympics in Lillihammer. I represented the US and Demoed Ice climbing ... " />
           <hr className='littleHr'></hr>
-          <Card link="skiing" title="Backountry skiing" 
+          <Card link="skiing" title="Backcountry Skiing" 
               subtitle="It's not ice climbing but it sure is fun!" 
-              body="Click to learn about my back country experiences
+              body="Click to learn about my backcountry experiences
 
-              I've been snowbaording and skiing since before I could walk [more]" />
+              I've been Snowboarding and skiing since before I could walk ..." />
         
 
       </DynamicPage>

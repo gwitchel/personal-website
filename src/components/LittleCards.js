@@ -15,11 +15,7 @@ function LittleCard(props) {
   if(props.link){
     return (
       <div className="littleCard clickable" onClick={()=>navigate(props.link)}>
-  
-        <div className="main-title-egg-container"> 
-          <img alt="" className='egg' height="20px" src="/ico.png"/>
-          <div className='lct'>{props.title}</div>
-        </div>
+            <div className='lct'>{props.title}</div>
         <div className='lcb'>{props.body}</div>
       </div>
     )

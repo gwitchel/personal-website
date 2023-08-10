@@ -22,7 +22,7 @@ function ShrinkVille() {
             <br/><br/>
         <img width="80%" alt="shrinkville" src={'./shrinkville-1.jpg'}></img>
         <br></br>
-          <a href="https://youtu.be/wtfX2UXnVAI" target="_blank" rel="noreferrer">Want to watch the full Video explaining shrinkville </a>
+          <a href="https://youtu.be/wtfX2UXnVAI" target="_blank" rel="noreferrer"> Watch the full Video explaining shrinkville </a>
         </div>
        
     </Page>

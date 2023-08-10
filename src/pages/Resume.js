@@ -5,20 +5,20 @@ import Card from '../components/Card';
 import { LittleCard, LittleCardRow } from '../components/LittleCards';
 
 const experience = [{
-        title: "Consultant",
+        title: "Developer",
         subtitle: "Kresus Labs",
         date: "May 2023 - Present",
-        body :"Startup culture forces you to wear a lot of hats, so I do a little bit of everything! Most recently, I've been heading up the development for our SDK, as well as running our blog"},
+        body :"Startup culture forces you to wear a lot of hats, so I do a little bit of everything! Most recently, I've been heading up development for our SDK as well as running our blog."},
     {
-        title: "Junior Developer",
+        title: "Developer",
         subtitle: "Tesla",
         date: "May 2022 - April 2023",
-        body :["I Worked on the financial team to develop novel software that tracks overall solar production and automatically generates tax reports to claim SREC credits. Following the completion of this project I transitioned to the frontend development team and began writing react scripts for their solar billing platform"]},
+        body :["I worked on the financial team to develop software that tracks solar production and automatically generates tax and audit reports to claim Solar Renewable Energy Credits (“SRECS”). Following the completion of this project I transitioned to the frontend development team and began writing react scripts for the solar billing platform which delivers monthly billing statements."]},
     {
         title: "STEM Teacher",
-        subtitle: "Prison Education program",
+        subtitle: " Prison Education Project",
         date: "August 2021- October 2022",
-        body :"The Prison Education Project has expanded educational opportunities for the in-custody population in 25 California correctional facilities and four international correctional facilities. With the assistance of 3,000 university student and faculty volunteers, PEP has serviced approximately 8,000 in-custody students in these facilities since 2011"
+        body :"The Prison Education Project provides expanded educational opportunities for the in-custody population in 25 California correctional facilities and four international correctional facilities. With the assistance of 3,000 university student and faculty volunteers, PEP has serviced approximately 8,000 in-custody students in these facilities since 2011. I delivered STEM tutoring to in-custody students via Zoom."
     },
     // {
     //     title: "SWE Intern",
@@ -31,12 +31,12 @@ const education = [
     {title: "Masters in Computational Math",
      subtitle: "Johns Hopkins",
      date: "Aug 2023 - Present",
-     body: "I'm currently enrolled in Johns Hopkins school for working professionals. I'm getting my degree asynchronously while working full time"},
+     body: "Currently enrolled in the Johns Hopkins master’s program in computational math."},
     { 
     title:"Bachelors in Computer Science",
     subtitle:"Harvey Mudd College",
     date:"Aug 2019 - May 2020",
-    body:'GPA: 3.4. Dissertation: modeling the effects of covid19 interventions on minority groups'
+    body:'GPA: 3.4. Dissertation: Modeling the Effects of COVID-19 Interventions on Minority Groups'
     },
     {title: "Highschool Diploma",
     subtitle: "World Class Academy",
@@ -49,40 +49,40 @@ const hmc_courseWork = [
     {
         link: "/portfolio/clinic",
         title: "Boston College Clinic",
-        body: "final project: Modeling the spread of covid in minority communities"
+        body: "Final Project: Modeling the spread of COVID-19 in minority communities"
     },{
         link: "portfolio/shrinkville",
         title: "Programming Languages",
-        body: "final project: Shrinkville"
+        body: "Final project: Shrinkville"
     },{
         link: "portfolio/MOCHAZine",
         title: "Independent Study: Art",
-        body: "Final project: creating a zine for MOCA"
+        body: "Final project: Created a zine for The Museum of Contemporary Art (MOCA) in Los Angeles"
     }
 ]
 
 const skills = [
     {
         title: "React Development",
-        body: "full proficiency in the entire react language (native and web)"
+        body: "Fully proficient in the entire react framework (native and web)"
     },{
         title: "Figma",
-        body: "Work experience with figma and their development flow"
+        body: "Work experience with figma and the development flow"
     },{
-        title: "System Optimization",
-        body: "Proficient in runtime optimization and analysis"
+        title: "Mathematical Analysis",
+        body: "Proficient in runtime optimization user profit analysis"
     }
 ]
 const Awards = [
     {
         title: "Class Valedictorian",
-        body: "Graduated as my class's valedictorian with a GPA of 4.4"
+        body: "High School class valedictorian with a 4.4 GPA"
     },{
-        title: "UIAA world cup: 4th",
-        body: "captain of the USA ice climbing team: took 4th at the world cup"
+        title: "UIAA World Cup",
+        body: "Captain of the USA ice climbing team, 4th at the World Cup"
     },{
         title: "Junior Olympics",
-        body: "represented the US at the Junior olympics (ice climbing)"
+        body: "Represented the U.S. at the Junior Olympics (ice climbing)"
     }
 ]
 
@@ -99,7 +99,7 @@ function Resume() {
             <hr className='littleHr'></hr>
             <Card {...experience[2]}  />
             <br/> 
-            <div className="title"> 
+            <div className="title title-top"> 
                 <h1> Skills</h1>
             </div>
             <br/> 
@@ -128,7 +128,7 @@ function Resume() {
             <Card {...education[2]} />
 
             <br/>
-            <div className="title"> 
+            <div className="title title-top"> 
                 <h1> Awards</h1>
             </div>
             <br/>

@@ -37,9 +37,9 @@ function Creative() {
       <Modal show={showModal} handleClose={(e)=>setShowModal(false)}>
        <img alt="" src={img}></img>
       </Modal>
-      <DynamicPage>
+      {/* <DynamicPage>
         <div className="creative-text"> Two years ago I ralized I love watercolor painting. It's just a hobby so I haven't done a good job of documenting it, but here are some photos of my work!</div>
-      </DynamicPage>
+      </DynamicPage> */}
     <Gallery photos={photos} direction={"row"}/>
     </div>
   )
