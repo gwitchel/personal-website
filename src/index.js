@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import IphoneRedirect from './IphoneRedirect';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -10,6 +11,7 @@ root.render(
     <head>
       <base href="/"/>
     </head>
+    <IphoneRedirect />
     <App />
   </React.StrictMode>
 );
