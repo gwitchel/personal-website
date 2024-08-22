@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import ReactDOM from "react-dom/client";
@@ -7,6 +8,7 @@ import Climbing from "./pages/Climbing";
 import Creative from "./pages/Creative";
 import Resume from './pages/Resume';
 import AboutMe from './pages/AboutMe';
+import OnIphone from './pages/OnIphone.js';
 
 import Clinic from './pages/tech-pages/Clinic';
 import DinosaurTrain from './pages/tech-pages/DinosaurTrain';
@@ -24,9 +26,44 @@ import USAIce from './pages/climbing-pages/USAIce'
 import WorldCup from './pages/climbing-pages/WorldCup.js'
 
 export default function App() {
+  const [isIphoneSize, setIsIphoneSize] = useState(true);
+
+  useEffect(() => {
+    const checkDimensions = () => {
+      const width = window.innerWidth;
+      const height = window.innerHeight;
+
+      // Check if the window dimensions are similar to that of an iPhone
+      if (width <= 800 || height <= 500) {  // Adjust dimensions if needed
+        setIsIphoneSize(true);
+      } else {
+        setIsIphoneSize(false);
+      }
+    };
+
+    // Run on initial load
+    checkDimensions();
+    console.log('checkDimensions');
+    // Add event listener to check on resize
+    window.addEventListener('resize', checkDimensions);
+
+    // Cleanup the event listener
+    return () => {
+      window.removeEventListener('resize', checkDimensions);
+    };
+  }, []);
+
+  console.log(isIphoneSize);
+
+  // if (isIphoneSize) {
+  //   return <div style={{ backgroundColor: 'white', height: '100vh' }}>
+  //   </div>;
+  // }
+
   return (
     <BrowserRouter>
       <Routes>
+        {!isIphoneSize ? <>
         <Route path="/" element={<Navbar />}>
           <Route index element={<AboutMe />} />
           <Route path="resume" element={<Resume />} />
@@ -50,6 +87,7 @@ export default function App() {
           </Route>
           <Route path="Creative"  forceRefresh={true} element={<Creative />} />
         </Route>
+        </> : <Route path="/" element={<OnIphone />}/>}
       </Routes>
     </BrowserRouter>
     // <div className="App">
