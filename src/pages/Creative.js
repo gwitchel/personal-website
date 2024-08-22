@@ -11,10 +11,11 @@ let photos=[
 
 for(var i = 1; i < 55; i++ ){
   const img = new Image();
-  let img_url = "paintings/"+i +".jpeg"
+  let img_url = "paintings/"+i +".jpg"
   img.src = img_url;
   
   img.onload = (() => {
+    console.log('photo', img.width, img.height)
     photos.push({
       src:img_url,
       width:img.width,
