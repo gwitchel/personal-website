@@ -1,7 +1,7 @@
 /* TODO: make active status for navbar buttons */
 .navbar {
   display: flex;
-  width: 1440px;
+  /* width: 1440px; */
   height: 57px;
   padding-left: 30px;
   justify-content: flex-start;
@@ -20,8 +20,10 @@
 
 .navbar .navbar-buttons {
   display: flex;
-  width: 80%;
-  justify-content: center;
+  /* width: 80%; */
+  flex-grow: 1;
+  margin-right: 32px;
+  justify-content: flex-end;
   align-items: flex-start;
   gap: 39px;
   flex-shrink: 0;
@@ -40,9 +42,10 @@
   display: flex;
   width: 500px;
   height: 600px;
+  flex-grow: 1;
   flex-direction: column;
   align-items: flex-start;
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
 
   border: 1px solid #000;
   background: #FFF;
@@ -56,7 +59,7 @@
   flex-direction: column;
   align-items: flex-start;
   flex-shrink: 0;
-
+  
   border: 1px solid #000;
   background: #FFF;
 }
@@ -66,7 +69,7 @@
 }
 .card {
   display: flex;
-  width: 500px;
+  width: 100%;
   height: auto;
   flex-direction: column;
   align-items: flex-start;
@@ -179,7 +182,8 @@
 
 .title {
   display: flex;
-  width: 500px;
+  flex-grow: 0;
+  width: 100%;
   height: 60px;
   padding: 0px 17px;
   box-sizing: border-box;
@@ -205,7 +209,8 @@
 }
 .littleCardRow{
   display: flex;
-  width: 466px;
+  /* width: 466px; */
+  padding: 0px 17px;
   height:auto;
   align-self: center;
   align-items: center;
@@ -213,12 +218,12 @@
 
 .littleCard {
   /* box-sizing: border-box; */
-
   display: flex;
-  width: 166.666666667px;;
+  flex: 1 0 0;
   height: 100%;
   overflow-y: scroll;
-  padding: 3px 3px 3px 10px;
+  padding: 3px 3px 0px 6px;
+  margin: 0px 2px 0px 2px;
   flex-direction: column;
   align-items: flex-start;
   gap: 5px;

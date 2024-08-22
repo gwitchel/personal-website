@@ -1,6 +1,6 @@
 .singlePage {
     display: flex;
-    width: 620px;
+    /* width: 620px; */
     flex-direction: column;
     align-items: flex-start;
     flex-shrink: 0;
@@ -9,7 +9,8 @@
 
 .doublePage {
     display: flex;
-    width: 1440px;
+    padding-left: 100px;
+    padding-right: 200px;
     justify-content: center;
     align-items: flex-start;
     align-content: flex-start;

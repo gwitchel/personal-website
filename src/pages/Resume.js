@@ -5,10 +5,10 @@ import Card from '../components/Card';
 import { LittleCard, LittleCardRow } from '../components/LittleCards';
 
 const experience = [{
-        title: "Developer",
-        subtitle: "Kresus Labs",
-        date: "May 2023 - Present",
-        body :"Startup culture forces you to wear a lot of hats, so I do a little bit of everything! Most recently, I've been heading up development for our SDK as well as running our blog."},
+        title: "Founding Engineer",
+        subtitle: "Theo Health",
+        date: "November 2023 - August 2024",
+        body :"I just spend the last eight months in Napoli Italy! While I was there I was the founding engineer for a new health tech startup. I was responsible for developing the MVP and leading the engineering team. I also worked on the business side of things, helping to raise a seed round from olympic golfer Xander Schauffele"},
     {
         title: "Developer",
         subtitle: "Tesla",
@@ -28,15 +28,15 @@ const experience = [{
     // },
     ]
 const education = [
-    {title: "Masters in Computational Math",
-     subtitle: "Johns Hopkins",
-     date: "Aug 2023 - Present",
-     body: "Currently enrolled in the Johns Hopkins master’s program in computational math."},
+    {title: "Masters in Biomedical Engineering",
+     subtitle: "University of Washington",
+     date: "Aug 2024 - Present",
+     body: "I'm currently getting my masters in BioMed Engineering."},
     { 
     title:"Bachelors in Computer Science",
     subtitle:"Harvey Mudd College",
-    date:"Aug 2019 - May 2020",
-    body:'GPA: 3.4. Dissertation: Modeling the Effects of COVID-19 Interventions on Minority Groups'
+    date:"Aug 2019 - May 2023",
+    body:'GPA: 3.7. Dissertation: Modeling the Effects of COVID-19 Interventions on Minority Groups'
     },
     {title: "Highschool Diploma",
     subtitle: "World Class Academy",
@@ -63,14 +63,14 @@ const hmc_courseWork = [
 
 const skills = [
     {
-        title: "React Development",
-        body: "Fully proficient in the entire react framework (native and web)"
+        title: "Nationally Registered EMT",
+        body: "Through the Bay Area Trainig Academy"
     },{
-        title: "Figma",
-        body: "Work experience with figma and the development flow"
+        title: "AERIE Certified",
+        body: "Part of being an avid backountry skiier means staying safe in avalanche terrain."
     },{
-        title: "Mathematical Analysis",
-        body: "Proficient in runtime optimization user profit analysis"
+        title: "Voulenteer Firefighter",
+        body: "I'm in the process of becoming a volunteer firefighter in Seattle"
     }
 ]
 const Awards = [
@@ -100,7 +100,7 @@ function Resume() {
             <Card {...experience[2]}  />
             <br/> 
             <div className="title title-top"> 
-                <h1> Skills</h1>
+                <h1> Certifications</h1>
             </div>
             <br/> 
             <LittleCardRow>
