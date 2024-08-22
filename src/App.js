@@ -26,7 +26,7 @@ import USAIce from './pages/climbing-pages/USAIce'
 import WorldCup from './pages/climbing-pages/WorldCup.js'
 
 export default function App() {
-  const [isIphoneSize, setIsIphoneSize] = useState(true);
+  const [isIphoneSize, setIsIphoneSize] = useState(false);
 
   useEffect(() => {
     const checkDimensions = () => {
@@ -37,9 +37,10 @@ export default function App() {
 
       // Check if the window dimensions are similar to that of an iPhone
       if (width <= 800 || height <= 500) {  // Adjust dimensions if needed
-        
+        console.log('is iphone size');
         setIsIphoneSize(true);
       } else {
+        console.log('is not iphone size');
         setIsIphoneSize(false);
       }
     };
