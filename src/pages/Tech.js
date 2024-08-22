@@ -27,9 +27,13 @@ function Tech() {
                   subtitle="CS131: Programming Languages" 
                   body="Shrinkville is a magical town composed completely of lambda calculus..." />
             <hr className='littleHr'></hr>
-            <Card link="/portfolio/dinosaurTrain" title="Dinosaur Train: which character looks the most like you??" 
+            {/* <Card link="/portfolio/dinosaurTrain" title="Dinosaur Train: which character looks the most like you??" 
                   subtitle="MS145: Computational photography" 
-                  body="I wrote an algorithm that maps cartoon dinosaurs faces to human faces..." />
+                  body="I wrote an algorithm that maps cartoon dinosaurs faces to human faces..." /> */}
+            <Card link="/portfolio/Desmond" title="Desmond: combining my artistic style with unity" 
+                  subtitle="putting my animation skills to the test" 
+                  body="I decided to learn unity so I could make a 16px platformer about Desmond, a garden spirit trying to earn 
+                  a second change at life" />
             <hr className='littleHr'></hr>
             <Card link="/portfolio/RemoteCarabeaner" title="Remote Controlled carabiner" 
                   subtitle="improving the safety of daisy soloing" 

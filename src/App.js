@@ -14,6 +14,7 @@ import MOCHAZine from './pages/tech-pages/MOCHAZine'
 import RemoteCarabeaner from  './pages/tech-pages/RemoteCarabeaner'
 import ScientificComputing from './pages/tech-pages/ScientificComputing'
 import ShrinkVille from './pages/tech-pages/ShrinkVille'
+import Desmond from './pages/tech-pages/Desmond'
 
 import Films from './pages/climbing-pages/Films'
 import JuniorOlympics from './pages/climbing-pages/JuniorOlympics'
@@ -41,6 +42,7 @@ export default function App() {
           <Route path="portfolio" element={<Tech />}> 
             <Route path="clinic" element={<Clinic />} />
             <Route path="DinosaurTrain" element={<DinosaurTrain />} />
+            <Route path="Desmond" element={<Desmond />} />
             <Route path="MOCHAZine" element={<MOCHAZine />} />
             <Route path="RemoteCarabeaner" element={<RemoteCarabeaner />} />
             <Route path="ScientificComputing" element={<ScientificComputing />} />
