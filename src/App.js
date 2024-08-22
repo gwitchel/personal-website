@@ -59,7 +59,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {!isIphoneSize ? <>
+        {!false ? <>
         <Route path="/" element={<Navbar />}>
           <Route index element={<AboutMe />} />
           <Route path="resume" element={<Resume />} />
