@@ -59,7 +59,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {!false ? <>
+        {/* {!false ? <>
         <Route path="/" element={<Navbar />}>
           <Route index element={<AboutMe />} />
           <Route path="resume" element={<Resume />} />
@@ -83,7 +83,8 @@ export default function App() {
           </Route>
           <Route path="Creative"  forceRefresh={true} element={<Creative />} />
         </Route>
-        </> : <Route path="/" element={<OnIphone />}/>}
+        </> : <Route path="/" element={<OnIphone />}/>} */}
+         <Route path="/" element={<OnIphone />}/>
       </Routes>
     </BrowserRouter>
     // <div className="App">
