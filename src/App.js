@@ -33,7 +33,7 @@ export default function App() {
       const width = window.innerWidth;
       const height = window.innerHeight;
 
-      console.log('screen resizes');
+      console.log('screen resizes', width, height);
 
       // Check if the window dimensions are similar to that of an iPhone
       if (width <= 800 || height <= 500) {  // Adjust dimensions if needed
