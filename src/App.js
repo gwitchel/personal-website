@@ -33,8 +33,11 @@ export default function App() {
       const width = window.innerWidth;
       const height = window.innerHeight;
 
+      console.log('screen resizes');
+
       // Check if the window dimensions are similar to that of an iPhone
       if (width <= 800 || height <= 500) {  // Adjust dimensions if needed
+        
         setIsIphoneSize(true);
       } else {
         setIsIphoneSize(false);
@@ -43,7 +46,7 @@ export default function App() {
 
     // Run on initial load
     checkDimensions();
-    console.log('checkDimensions');
+
     // Add event listener to check on resize
     window.addEventListener('resize', checkDimensions);
 
@@ -52,13 +55,6 @@ export default function App() {
       window.removeEventListener('resize', checkDimensions);
     };
   }, []);
-
-  console.log(isIphoneSize);
-
-  // if (isIphoneSize) {
-  //   return <div style={{ backgroundColor: 'white', height: '100vh' }}>
-  //   </div>;
-  // }
 
   return (
     <BrowserRouter>
