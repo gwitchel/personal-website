@@ -8,7 +8,7 @@ const experience = [{
         title: "Founding Engineer",
         subtitle: "Theo Health",
         date: "November 2023 - August 2024",
-        body :"I just spend the last eight months in Napoli Italy! While I was there I was the founding engineer for a new health tech startup. I was responsible for developing the MVP and leading the engineering team. I also worked on the business side of things, helping to raise a seed round from olympic golfer Xander Schauffele"},
+        body :"I just spent the last eight months in Napoli Italy! While I was there I was the founding engineer for a new health tech startup. I was responsible for developing the MVP and leading the engineering team. I also worked on the business side of things, helping to raise a seed round from olympic golfer Xander Schauffele"},
     {
         title: "Developer",
         subtitle: "Tesla",
@@ -41,7 +41,7 @@ const education = [
     {title: "Highschool Diploma",
     subtitle: "World Class Academy",
     date: "Aug 2016 - May 2019",
-    body: "World Class academy is a traveling boarding school for elite rock climbers." }
+    body: "GPA 4.6, class valedictorian, highest GPA on school record, president of the Computer Science Club. World Class academy is a traveling boarding school for elite rock climbers." }
 ] 
 
 
